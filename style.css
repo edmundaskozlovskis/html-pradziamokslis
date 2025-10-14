@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px silver;
+    padding: 10px 16px;
+}
+.nav a {
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+    padding: 8px 16px;
+    display: inline-block;
+    /* font-size: 15px; */
+}
+.nav a:hover {
+    background-color: silver;
+}
+.btn {
+border: solid 1px; 
+padding: 10px 20px; 
+background-color: #9e3333;
+color: white;
+text-decoration: none;
+margin-top: 10px;
+display: inline-block;
+}
+.btn:hover {
+    color: #9e3333;
+    background-color: #fff;
+    border: solid 1px #9e3333;
+    transition: 0.3s;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+.col {
+    width: 50%;
+}
+#about, #menu, #contact  {
+    padding: 64px 0;
+}
+#menu h1, .footer {
+    text-align: center;
+}
+#contact .form p {
+    padding: 8px 12px;
+    border: none;
+    border-bottom: solid 1px silver;
+}
+#contact button {
+    background-color: silver;
+    border: solid 1px silver;
+    padding: 8px 12px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+#contact button:hover {
+    cursor: pointer;
+    background-color: rgb(213, 213, 213);;
+}
+.footer {
+    background-color: silver;
+    padding: 42px 0;
+}

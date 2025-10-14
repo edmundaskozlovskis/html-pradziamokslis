@@ -3,38 +3,72 @@
 <head>
     <title>Pirma pamoka</title>
     <link rel="shortcut icon" href="html-5.png" type="image/x-icon">
-    <style>
-        .btn {
-          border: solid 1px; 
-          padding: 10px 20px; 
-          background-color: #9e3333;
-          color: white;
-          text-decoration: none;
-        }
-        .container {
-            width: 1200px;
-            border: solid 1px blue;
-            margin: 0 auto;
-        }
-        .row {
-            display: flex;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="nav" id="top">
+        <div class="logo">
+            <a href="#top">Pirma svetainė</a>
+        </div>
+        <div class="menu">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
     <div class="container">
-        <div class="row">
+        <div class="row" id="about">
             <div class="col">
                 <img width="500" 
                      src="https://cdn.britannica.com/16/234216-050-C66F8665/beagle-hound-dog.jpg" 
                      alt="Dog image">
             </div>
             <div class="col">
-                <h1 style="color:red">This is a Heading</h1>
+                <h1 style="color:red">About block</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <a class="btn" href="https://www.w3schools.com">Mygtukas</a>
             </div>
         </div>
+        <hr>
+        <div class="row" id="menu">
+            <div class="col">
+                <h1>Our menu</h1>
+                <br>
+                <h4>Bread Basket</h4>
+                <p class="">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <br>
+                <h4>Honey Almond Granola with Fruits</h4>
+                <p class="">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                <br>
+                <h4>Belgian Waffle</h4>
+                <p class="">Vanilla flavored batter with malted flour 7.50</p>
+                <br>
+                <h4>Scrambled eggs</h4>
+                <p class="">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                <br>
+                <h4>Blueberry Pancakes</h4>
+                <p class="">With syrup, butter and lots of berries 8.50</p> 
+            </div>
+            <div class="col">
+                <img src="tablesetting.jpg" alt="Menu image">
+            </div>
+        </div>
+        <hr>
+        <div id="contact">
+            <h1>Contact</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, obcaecati vel. Repellat aut vero nulla exercitationem ullam consequatur itaque voluptatibus! Corrupti expedita tempore delectus ducimus, voluptatem asperiores aut consequuntur harum.
+            Aut praesentium impedit cumque temporibus blanditiis itaque repellat dolore asperiores officiis fuga, eveniet ad officia tempore molestias cupiditate illum iste dolor magni incidunt. Eius, ipsa repudiandae quis reiciendis vel maxime?</p>
+            <p>
+                <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, corporis?</strong>
+            </p>
+            <div class="form">
+                <p contenteditable="true">Name</p>
+                <p contenteditable="true">Message</p>
+            </div>
+            <button role="button">Send message</button>
+        </div>
+        <br>
         
         <!-- <h2 style="color: #0000ff;">Antra antraštė</h2>
         <p style="font-size: 20px;">This is a paragraph.</p>
@@ -51,6 +85,8 @@
         <a href="https://www.w3schools.com">Nuoroda į tinklapį</a> -->
         
     </div>
-    
+    <div class="footer">
+            <p>Powered by </p>
+        </div>
 </body>
 </html>
