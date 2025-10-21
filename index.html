@@ -2,7 +2,9 @@
 <html>
 <head>
     <title>Pirma pamoka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="html-5.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -10,10 +12,13 @@
         <div class="logo">
             <a href="#top">Pirma svetainė</a>
         </div>
-        <div class="menu">
-            <a href="#about">About</a>
+        <div class="menu" id="myTopnav">
+            <a class="active" href="#about">About</a>
             <a href="#menu">Menu</a>
             <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
     </div>
     <div class="container">
@@ -88,5 +93,6 @@
     <div class="footer">
             <p>Powered by </p>
         </div>
+       <script src="script.js"></script>
 </body>
 </html>
