@@ -107,6 +107,9 @@ display: inline-block;
         text-align: left;
     }
     .menu.responsive {position: relative;}
+    .menu a:first-child {
+        margin-top: 40px;
+    }
     .col img {
         width: 100%;
     }
